@@ -22,6 +22,6 @@ async function getWeather(city) {
 `;
     } catch(error) {
         document.getElementById('weatherResult').innerHTML = `
-         <h2>something went wrong</h2>`
+         <h2>Data Unavailable</h2>`
     }
 }
